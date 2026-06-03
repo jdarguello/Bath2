@@ -12,21 +12,22 @@ public class Gameplay extends WinningConditions implements Rules {
     public Gameplay() {
         super();        //<= creates a white board!
         userInput = new Scanner(System.in);
-        gameSession();
     }
 
     //Multiplayer-option
     public Gameplay (Player player1, Player player2) {
+        this();
         this.player1 = player1;
         this.player2 = player2;
-        this();                     //New Gameplay!
+        gameSession();
     }
 
     //Single player!
     public Gameplay (Player player1, Bot robot) {
+        this();
         this.player1 = player1;
         this.robot = robot;
-        this();                     //New Gameplay!
+        gameSession();
     }
 
     public void gameSession() {
