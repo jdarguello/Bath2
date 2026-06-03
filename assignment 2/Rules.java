@@ -1,6 +1,3 @@
-import Bot;
-import Player;
-
 public interface Rules {
     public Boolean haveYouWon();
     public void yourTurn(Player player);

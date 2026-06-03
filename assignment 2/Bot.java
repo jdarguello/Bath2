@@ -1,8 +1,5 @@
 import java.util.Random;
 
-import Board;
-import Player;
-
 public class Bot {
     
     Player player;

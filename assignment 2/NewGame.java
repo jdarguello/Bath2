@@ -1,9 +1,5 @@
 import java.util.Scanner;
 
-import Bot;
-import Player;
-import Gameplay;
-
 public abstract class NewGame {
     private static Scanner userInput;
 

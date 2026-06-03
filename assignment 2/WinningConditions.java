@@ -1,6 +1,3 @@
-import Board;
-import Column;
-
 public abstract class WinningConditions {
 
     protected final Board board;

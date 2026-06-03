@@ -1,5 +1,3 @@
-import Player;
-
 public class Column implements Stack {
     char[] stack;     //Slots of the column
 

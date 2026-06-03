@@ -1,9 +1,5 @@
 import java.util.Scanner;
 
-import Bot;
-import Player;
-import WinningConditions;
-
 public class Gameplay extends WinningConditions implements Rules {
 
     private Player player1;

@@ -1,6 +1,3 @@
-import Column;
-import Player;
-
 public class Board implements Screen {
     private Stack[] columns;
 
